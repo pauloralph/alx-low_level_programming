@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc s $CFIL2E
+gcc s $CFILE
