@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- *  print_alphabet - Begin here
+ * print_alphabet - Begin here
  *
- *  print a-z using putchar
+ * print a-z using putchar
  *
- *  Return: always 0 (true)
+ * Return: always 0 (true)
  */
 void print_alphabet(void)
 {
@@ -15,5 +15,5 @@ void print_alphabet(void)
 		_putchar(c);
 		c++;
 	}
-	_putchar('\n');
+	_putchar('\n')
 }
