@@ -1,16 +1,13 @@
 #include "main.h"
 
 /**
- * _isdigit - function that checks whether a number is a digit
- * @c: function argument
- * Return: 1 if true 0 if false
+ * mul - multiples two integers
+ * @a: function argument
+ * @b: function argument
+ * Return: Product value
  */
 
-int _isdigit(int c)
+int mul(int a, int b)
 {
-	if (c >= '0' && c <= '9')
-		return (1);
-	else
-		return (0);
-
+	return (a * b);
 }
