@@ -1,22 +1,18 @@
+#include <stdio.h>
+#include <string.h>
 #include "main.h"
+
 /**
- * print_rev -prints a string in reverse
- * @s: a string
- *
- * Return: string in reverse
- */
+*print_rev - prints a string in reverse order
+*@s: String to reverse
+*Return: Nothing
+*/
+
 void print_rev(char *s)
 {
-	int i = 0;
+	int len = strlen(s);
 
-	while (s[i] != 0)
-	{
-		i++;
-	}
-	while (i > 0)
-	{
-		i--;
-		_putchar(s[i]);
-	}
-	_putchar('\n');
+	while (len--)
+		putchar(*(s + len));
+	putchar(10);
 }
