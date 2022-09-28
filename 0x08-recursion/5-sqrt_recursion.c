@@ -21,7 +21,7 @@ int sqrt_a(int a, int b)
 }
 
 /**
- * _sqrt_recursion(int n)
+ * _sqrt_recursion - main - check the code 
  * @n: number
  *
  * Return: Always 0.
