@@ -6,14 +6,14 @@
  */
 void times_table(void)
 {
-	int x , y , z;
+	int x, y, z;
 
 	for (x = 0; x <= 9; x++)
 	{
 		_putchar('0');
 		for (y = 1; y <= 9; y++)
 		{
-			z = x * y;
+			z =x * y;
 			_putchar(',');
 			_putchar(' ');
 			if (z <= 9)
