@@ -5,7 +5,7 @@
  * @width: number of columns
  * @height: number of rows
  * Return: pointer to grid or null
- */
+ **/
 int **alloc_grid(int width, int height)
 {
 	int **grid, i, j;
@@ -20,7 +20,7 @@ int **alloc_grid(int width, int height)
 		grid[i] = malloc(sizeof(int) * width);
 		if (grid[i] == NULL)
 		{
-			while (--i <= 0)
+			while (--i >= 0)
 				free(grid[i]);
 			free(grid);
 			return (NULL);
