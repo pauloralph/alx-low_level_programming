@@ -26,7 +26,7 @@ char *argstostr(int ac, char **av)
 		c++;
 	}
 
-	aout = malloc((c + 1) * sizeof (char));
+	aout = malloc((c + 1) * sizeof(char));
 
 	if (aout == NULL)
 	{
@@ -43,7 +43,7 @@ char *argstostr(int ac, char **av)
 			ia++;
 			j = 0;
 		}
-		if (ia < c -1)
+		if (ia < c - 1)
 			aout[ia] = av[i][j];
 	}
 	aout[ia] = '\0';
